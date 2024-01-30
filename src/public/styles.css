@@ -1,3 +1,13 @@
 body{
-    background: #f5d04e ;
+    background: #f5d04e ;   
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;      
+}
+
+#card{
+    border: solid 1px;
+    padding: 25px;
+    width: 325px; 
 }
