@@ -26,3 +26,16 @@ body{
     font-size: 14px;
     padding-left: 14px;
 }
+
+#information > h5{
+    margin: 10px 20px 20px 0px;
+}
+
+#information > p{
+    color: gray;
+    font-size: 17px;
+}
+
+#peaple{
+    display: flex;
+}
