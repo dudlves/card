@@ -1,3 +1,7 @@
+* {
+  font-family: "Figtree", sans-serif;
+}
+
 body{
     background: #f5d04e ;   
     display: flex;
@@ -8,6 +12,8 @@ body{
 
 #card{
     border: solid 1px;
+    border-right: solid 10px;
+    border-bottom: solid 10px;
     padding: 25px;
     width: 325px; 
     background-color: white;
@@ -33,9 +39,22 @@ body{
 
 #information > p{
     color: gray;
-    font-size: 17px;
+    font-size: 16px;
 }
 
-#peaple{
+#people{
     display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: -16px;
+}
+
+#people > img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+#people > h4 {
+    font-size: 14px;
 }
